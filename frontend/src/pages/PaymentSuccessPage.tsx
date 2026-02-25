@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 
 export default function PaymentSuccessPage() {
-  const { t } = useTranslation();
 
   return (
     <div className="py-20 px-4">
