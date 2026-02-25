@@ -59,8 +59,8 @@ export default function CreatePage() {
         <div className="max-w-2xl mx-auto">
           <div className="card">
             <div className="text-center mb-8">
-              <div className="w-16 h-16 bg-primary-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Check className="w-8 h-8 text-primary-400" />
+              <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Check className="w-8 h-8 text-green-400" />
               </div>
               <h1 className="text-2xl font-bold">{t('create.success.title')}</h1>
             </div>
@@ -68,7 +68,7 @@ export default function CreatePage() {
             <div className="space-y-6">
               {/* Candidate Link */}
               <div>
-                <label className="block text-sm font-medium text-surface-300 mb-2">
+                <label className="block text-sm font-medium text-zinc-400 mb-2">
                   {t('create.success.candidateLink')}
                 </label>
                 <div className="flex gap-2">
@@ -93,7 +93,7 @@ export default function CreatePage() {
 
               {/* Results Link */}
               <div>
-                <label className="block text-sm font-medium text-surface-300 mb-2">
+                <label className="block text-sm font-medium text-zinc-400 mb-2">
                   {t('create.success.resultsLink')}
                 </label>
                 <div className="flex gap-2">
@@ -118,11 +118,11 @@ export default function CreatePage() {
 
               {/* Generated Questions Preview */}
               <div>
-                <h3 className="text-sm font-medium text-surface-300 mb-3">Generated Questions:</h3>
+                <h3 className="text-sm font-medium text-zinc-400 mb-3">Generated Questions:</h3>
                 <div className="space-y-2">
                   {result.questions.map((q, i) => (
-                    <div key={i} className="p-3 bg-surface-800 rounded-lg text-sm">
-                      <span className="text-primary-400 font-medium">Q{q.id}:</span> {q.text}
+                    <div key={i} className="p-3 bg-zinc-800 rounded-lg text-sm">
+                      <span className="text-green-400 font-medium">Q{q.id}:</span> {q.text}
                     </div>
                   ))}
                 </div>

@@ -34,7 +34,7 @@ export default function PricingPage() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">{t('pricing.title')}</h1>
-          <p className="text-xl text-surface-300">{t('pricing.subtitle')}</p>
+          <p className="text-xl text-zinc-400">{t('pricing.subtitle')}</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -42,12 +42,12 @@ export default function PricingPage() {
             <div
               key={plan.id}
               className={`card relative ${
-                plan.popular ? 'border-primary-500 ring-2 ring-primary-500/20' : ''
+                plan.popular ? 'border-green-500 ring-2 ring-green-500/20' : ''
               }`}
             >
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-primary-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+                  <span className="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
                     Popular
                   </span>
                 </div>
@@ -57,7 +57,7 @@ export default function PricingPage() {
                 <h3 className="text-xl font-bold mb-2">
                   {t(`pricing.${plan.id}.name`)}
                 </h3>
-                <div className="text-3xl font-bold text-primary-400">
+                <div className="text-3xl font-bold text-green-400">
                   {t(`pricing.${plan.id}.price`)}
                 </div>
               </div>
@@ -66,8 +66,8 @@ export default function PricingPage() {
                 {(t(`pricing.${plan.id}.features`, { returnObjects: true }) as string[]).map(
                   (feature, i) => (
                     <li key={i} className="flex items-start gap-2">
-                      <Check className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
-                      <span className="text-sm text-surface-200">{feature}</span>
+                      <Check className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
+                      <span className="text-sm text-zinc-200">{feature}</span>
                     </li>
                   )
                 )}
@@ -78,7 +78,7 @@ export default function PricingPage() {
                 disabled={loading === plan.id || plan.id === 'free'}
                 className={`w-full py-3 rounded-lg font-semibold transition-colors ${
                   plan.id === 'free'
-                    ? 'bg-surface-800 text-surface-300 cursor-default'
+                    ? 'bg-zinc-800 text-zinc-400 cursor-default'
                     : plan.popular
                     ? 'btn-primary'
                     : 'btn-secondary'

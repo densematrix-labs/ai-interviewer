@@ -78,7 +78,7 @@ export default function InterviewPage() {
   if (loading) {
     return (
       <div className="py-20 flex justify-center">
-        <Loader2 className="w-8 h-8 animate-spin text-primary-500" />
+        <Loader2 className="w-8 h-8 animate-spin text-green-500" />
       </div>
     );
   }
@@ -89,7 +89,7 @@ export default function InterviewPage() {
         <div className="max-w-md mx-auto text-center">
           <AlertCircle className="w-16 h-16 text-red-400 mx-auto mb-4" />
           <h1 className="text-2xl font-bold mb-2">{t('interview.error.notFound')}</h1>
-          <p className="text-surface-300">{error}</p>
+          <p className="text-zinc-400">{error}</p>
         </div>
       </div>
     );
@@ -99,9 +99,9 @@ export default function InterviewPage() {
     return (
       <div className="py-20 px-4">
         <div className="max-w-md mx-auto text-center">
-          <CheckCircle className="w-16 h-16 text-primary-400 mx-auto mb-4" />
+          <CheckCircle className="w-16 h-16 text-green-400 mx-auto mb-4" />
           <h1 className="text-2xl font-bold mb-2">{t('interview.success.title')}</h1>
-          <p className="text-surface-300">{t('interview.success.message')}</p>
+          <p className="text-zinc-400">{t('interview.success.message')}</p>
         </div>
       </div>
     );
@@ -112,10 +112,10 @@ export default function InterviewPage() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-2">{t('interview.title')}</h1>
-          <p className="text-xl text-primary-400">
+          <p className="text-xl text-green-400">
             {t('interview.for')}: {interview?.job_title}
           </p>
-          <p className="text-surface-300 mt-4">{t('interview.instructions')}</p>
+          <p className="text-zinc-400 mt-4">{t('interview.instructions')}</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -155,7 +155,7 @@ export default function InterviewPage() {
           {interview?.questions.map((question, index) => (
             <div key={question.id} className="card">
               <label className="block mb-3">
-                <span className="text-primary-400 font-semibold">{t('interview.question')} {index + 1}</span>
+                <span className="text-green-400 font-semibold">{t('interview.question')} {index + 1}</span>
                 <p className="text-lg mt-1">{question.text}</p>
               </label>
               <textarea

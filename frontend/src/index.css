@@ -19,38 +19,62 @@ body {
   min-height: 100vh;
 }
 
-.card {
-  @apply bg-surface-900 border border-surface-800 rounded-xl p-6;
-}
+@layer components {
+  .card {
+    @apply bg-zinc-900 border border-zinc-800 rounded-xl p-6;
+  }
 
-.btn-primary {
-  @apply bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2;
-}
+  .btn-primary {
+    @apply bg-green-500 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2;
+  }
+  
+  .btn-primary:hover {
+    @apply bg-green-600;
+  }
 
-.btn-secondary {
-  @apply bg-surface-800 hover:bg-surface-700 text-white font-medium py-3 px-6 rounded-lg border border-surface-700 transition-all duration-200;
-}
+  .btn-secondary {
+    @apply bg-zinc-800 text-white font-medium py-3 px-6 rounded-lg border border-zinc-700 transition-all duration-200;
+  }
+  
+  .btn-secondary:hover {
+    @apply bg-zinc-700;
+  }
 
-.input {
-  @apply w-full bg-surface-900 border border-surface-700 rounded-lg px-4 py-3 text-white placeholder-surface-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all;
-}
+  .input {
+    @apply w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-zinc-400 transition-all;
+  }
+  
+  .input:focus {
+    @apply outline-none ring-2 ring-green-500 border-transparent;
+  }
 
-.textarea {
-  @apply w-full bg-surface-900 border border-surface-700 rounded-lg px-4 py-3 text-white placeholder-surface-300 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all resize-none;
-}
+  .textarea {
+    @apply w-full bg-zinc-900 border border-zinc-700 rounded-lg px-4 py-3 text-white placeholder-zinc-400 transition-all resize-none;
+  }
+  
+  .textarea:focus {
+    @apply outline-none ring-2 ring-green-500 border-transparent;
+  }
 
-.badge {
-  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
-}
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
 
-.badge-recommend {
-  @apply bg-primary-500/20 text-primary-400 border border-primary-500/30;
-}
+  .badge-recommend {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+  }
 
-.badge-maybe {
-  @apply bg-yellow-500/20 text-yellow-400 border border-yellow-500/30;
-}
+  .badge-maybe {
+    background: rgba(234, 179, 8, 0.2);
+    color: #facc15;
+    border: 1px solid rgba(234, 179, 8, 0.3);
+  }
 
-.badge-not-recommended {
-  @apply bg-red-500/20 text-red-400 border border-red-500/30;
+  .badge-not-recommended {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+  }
 }
