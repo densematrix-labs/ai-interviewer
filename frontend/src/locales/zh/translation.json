@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "首页",
+    "create": "创建面试",
+    "pricing": "定价"
+  },
+  "home": {
+    "title": "AI 面试筛选",
+    "subtitle": "用 AI 文字面试自动完成初筛",
+    "cta": "创建面试",
+    "features": {
+      "title": "使用流程",
+      "step1": {
+        "title": "创建面试",
+        "desc": "输入职位要求，AI 自动生成筛选问题"
+      },
+      "step2": {
+        "title": "分享链接",
+        "desc": "将面试链接发送给候选人"
+      },
+      "step3": {
+        "title": "AI 评估",
+        "desc": "获得即时 AI 评分和推荐"
+      },
+      "step4": {
+        "title": "查看结果",
+        "desc": "按表现排名查看所有候选人"
+      }
+    },
+    "benefits": {
+      "title": "为什么选择 AI Interviewer？",
+      "fast": "节省 80% 的筛选时间",
+      "unbiased": "一致、无偏见的评估",
+      "scalable": "即时筛选数百名候选人",
+      "cheap": "比视频面试工具便宜 10 倍"
+    }
+  },
+  "create": {
+    "title": "创建新面试",
+    "jobTitle": "职位名称",
+    "jobTitlePlaceholder": "例如：高级软件工程师",
+    "requirements": "职位要求",
+    "requirementsPlaceholder": "描述角色、职责和要求...",
+    "skills": "核心技能（逗号分隔）",
+    "skillsPlaceholder": "例如：Python, 机器学习, AWS",
+    "submit": "生成面试问题",
+    "generating": "正在生成问题...",
+    "success": {
+      "title": "面试已创建！",
+      "candidateLink": "将此链接发送给候选人：",
+      "resultsLink": "在这里查看结果（请保存）：",
+      "copyLink": "复制链接",
+      "copied": "已复制！"
+    }
+  },
+  "interview": {
+    "title": "筛选面试",
+    "for": "职位",
+    "instructions": "请认真回答每个问题。您的回答将由 AI 进行评估。",
+    "yourName": "您的姓名",
+    "yourEmail": "您的邮箱",
+    "question": "问题",
+    "answerPlaceholder": "在此输入您的答案...",
+    "submit": "提交面试",
+    "submitting": "正在提交...",
+    "success": {
+      "title": "感谢您！",
+      "message": "您的回答已提交。招聘团队将很快审核。"
+    },
+    "error": {
+      "notFound": "面试不存在",
+      "alreadySubmitted": "您已经提交过此面试"
+    }
+  },
+  "results": {
+    "title": "面试结果",
+    "summary": "摘要",
+    "totalCandidates": "总候选人",
+    "recommended": "推荐",
+    "maybe": "待定",
+    "notRecommended": "不推荐",
+    "noCandidates": "暂无提交。请将面试链接分享给候选人。",
+    "candidate": "候选人",
+    "score": "分数",
+    "recommendation": "推荐",
+    "aiSummary": "AI 总结",
+    "answers": "答案",
+    "accessDenied": "访问码无效"
+  },
+  "pricing": {
+    "title": "简单定价",
+    "subtitle": "免费开始，按需升级",
+    "free": {
+      "name": "免费版",
+      "price": "¥0",
+      "features": ["1 次面试", "最多 5 名候选人", "AI 评估", "基础分析"]
+    },
+    "starter": {
+      "name": "入门版",
+      "price": "¥35",
+      "features": ["10 次面试", "无限候选人", "AI 评估", "完整分析", "邮件支持"]
+    },
+    "pro": {
+      "name": "专业版",
+      "price": "¥70",
+      "features": ["50 次面试", "无限候选人", "AI 评估", "完整分析", "优先支持"]
+    },
+    "unlimited": {
+      "name": "无限版",
+      "price": "¥140/月",
+      "features": ["无限面试", "无限候选人", "AI 评估", "完整分析", "24/7 支持"]
+    },
+    "buyNow": "立即购买",
+    "currentPlan": "当前套餐"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "tryAgain": "重试"
+  }
+}

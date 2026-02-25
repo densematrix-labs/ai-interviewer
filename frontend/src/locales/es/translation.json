@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "create": "Crear entrevista",
+    "pricing": "Precios"
+  },
+  "home": {
+    "title": "Selección con IA",
+    "subtitle": "Automatiza tu filtrado inicial de candidatos con entrevistas de texto con IA",
+    "cta": "Crear entrevista",
+    "features": {
+      "title": "Cómo funciona",
+      "step1": {
+        "title": "Crear entrevista",
+        "desc": "Ingresa los requisitos del puesto y deja que la IA genere las preguntas"
+      },
+      "step2": {
+        "title": "Compartir enlace",
+        "desc": "Envía el enlace único de la entrevista a los candidatos"
+      },
+      "step3": {
+        "title": "Evaluación IA",
+        "desc": "Obtén puntuación y recomendaciones de IA al instante"
+      },
+      "step4": {
+        "title": "Ver resultados",
+        "desc": "Ve todos los candidatos clasificados por rendimiento"
+      }
+    },
+    "benefits": {
+      "title": "¿Por qué AI Interviewer?",
+      "fast": "Ahorra el 80% del tiempo de selección",
+      "unbiased": "Evaluaciones consistentes e imparciales",
+      "scalable": "Filtra cientos de candidatos al instante",
+      "cheap": "10 veces más barato que las herramientas de video"
+    }
+  },
+  "create": {
+    "title": "Crear nueva entrevista",
+    "jobTitle": "Título del puesto",
+    "jobTitlePlaceholder": "ej. Ingeniero de Software Senior",
+    "requirements": "Requisitos del puesto",
+    "requirementsPlaceholder": "Describe el rol, responsabilidades y requisitos...",
+    "skills": "Habilidades clave (separadas por coma)",
+    "skillsPlaceholder": "ej. Python, Machine Learning, AWS",
+    "submit": "Generar preguntas de entrevista",
+    "generating": "Generando preguntas...",
+    "success": {
+      "title": "¡Entrevista creada!",
+      "candidateLink": "Envía este enlace a los candidatos:",
+      "resultsLink": "Ver resultados aquí (¡guárdalo!):",
+      "copyLink": "Copiar enlace",
+      "copied": "¡Copiado!"
+    }
+  },
+  "interview": {
+    "title": "Entrevista de selección",
+    "for": "para",
+    "instructions": "Por favor responde cada pregunta con cuidado. Tus respuestas serán evaluadas por IA.",
+    "yourName": "Tu nombre",
+    "yourEmail": "Tu email",
+    "question": "Pregunta",
+    "answerPlaceholder": "Escribe tu respuesta aquí...",
+    "submit": "Enviar entrevista",
+    "submitting": "Enviando...",
+    "success": {
+      "title": "¡Gracias!",
+      "message": "Tus respuestas han sido enviadas. El equipo de contratación las revisará pronto."
+    },
+    "error": {
+      "notFound": "Entrevista no encontrada",
+      "alreadySubmitted": "Ya has enviado esta entrevista"
+    }
+  },
+  "results": {
+    "title": "Resultados de la entrevista",
+    "summary": "Resumen",
+    "totalCandidates": "Total de candidatos",
+    "recommended": "Recomendado",
+    "maybe": "Tal vez",
+    "notRecommended": "No recomendado",
+    "noCandidates": "Aún no hay envíos. Comparte el enlace de la entrevista con los candidatos.",
+    "candidate": "Candidato",
+    "score": "Puntuación",
+    "recommendation": "Recomendación",
+    "aiSummary": "Resumen de IA",
+    "answers": "Respuestas",
+    "accessDenied": "Código de acceso inválido"
+  },
+  "pricing": {
+    "title": "Precios simples",
+    "subtitle": "Empieza gratis, mejora cuando lo necesites",
+    "free": {
+      "name": "Gratis",
+      "price": "$0",
+      "features": ["1 entrevista", "Máx. 5 candidatos", "Evaluación IA", "Análisis básico"]
+    },
+    "starter": {
+      "name": "Inicial",
+      "price": "$4.99",
+      "features": ["10 entrevistas", "Candidatos ilimitados", "Evaluación IA", "Análisis completo", "Soporte por email"]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$9.99",
+      "features": ["50 entrevistas", "Candidatos ilimitados", "Evaluación IA", "Análisis completo", "Soporte prioritario"]
+    },
+    "unlimited": {
+      "name": "Ilimitado",
+      "price": "$19.99/mes",
+      "features": ["Entrevistas ilimitadas", "Candidatos ilimitados", "Evaluación IA", "Análisis completo", "Soporte 24/7"]
+    },
+    "buyNow": "Comprar ahora",
+    "currentPlan": "Plan actual"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "tryAgain": "Intentar de nuevo"
+  }
+}

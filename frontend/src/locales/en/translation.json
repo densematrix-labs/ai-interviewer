@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Home",
+    "create": "Create Interview",
+    "pricing": "Pricing"
+  },
+  "home": {
+    "title": "AI Interview Screening",
+    "subtitle": "Automate your initial candidate filtering with AI-powered text interviews",
+    "cta": "Create Interview",
+    "features": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Create Interview",
+        "desc": "Enter job requirements and let AI generate screening questions"
+      },
+      "step2": {
+        "title": "Share Link",
+        "desc": "Send the unique interview link to candidates"
+      },
+      "step3": {
+        "title": "AI Evaluates",
+        "desc": "Get instant AI scoring and recommendations"
+      },
+      "step4": {
+        "title": "Review Results",
+        "desc": "See all candidates ranked by performance"
+      }
+    },
+    "benefits": {
+      "title": "Why AI Interviewer?",
+      "fast": "Save 80% of screening time",
+      "unbiased": "Consistent, unbiased evaluations",
+      "scalable": "Screen hundreds of candidates instantly",
+      "cheap": "10x cheaper than video interview tools"
+    }
+  },
+  "create": {
+    "title": "Create New Interview",
+    "jobTitle": "Job Title",
+    "jobTitlePlaceholder": "e.g., Senior Software Engineer",
+    "requirements": "Job Requirements",
+    "requirementsPlaceholder": "Describe the role, responsibilities, and requirements...",
+    "skills": "Key Skills (comma separated)",
+    "skillsPlaceholder": "e.g., Python, Machine Learning, AWS",
+    "submit": "Generate Interview Questions",
+    "generating": "Generating questions...",
+    "success": {
+      "title": "Interview Created!",
+      "candidateLink": "Send this link to candidates:",
+      "resultsLink": "View results here (save this!):",
+      "copyLink": "Copy Link",
+      "copied": "Copied!"
+    }
+  },
+  "interview": {
+    "title": "Screening Interview",
+    "for": "for",
+    "instructions": "Please answer each question thoughtfully. Your responses will be evaluated by AI.",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "question": "Question",
+    "answerPlaceholder": "Type your answer here...",
+    "submit": "Submit Interview",
+    "submitting": "Submitting...",
+    "success": {
+      "title": "Thank You!",
+      "message": "Your responses have been submitted. The hiring team will review them shortly."
+    },
+    "error": {
+      "notFound": "Interview not found",
+      "alreadySubmitted": "You have already submitted this interview"
+    }
+  },
+  "results": {
+    "title": "Interview Results",
+    "summary": "Summary",
+    "totalCandidates": "Total Candidates",
+    "recommended": "Recommended",
+    "maybe": "Maybe",
+    "notRecommended": "Not Recommended",
+    "noCandidates": "No submissions yet. Share the interview link with candidates.",
+    "candidate": "Candidate",
+    "score": "Score",
+    "recommendation": "Recommendation",
+    "aiSummary": "AI Summary",
+    "answers": "Answers",
+    "accessDenied": "Invalid access code"
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Start free, upgrade when you need more",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "features": ["1 interview", "5 candidates max", "AI evaluation", "Basic analytics"]
+    },
+    "starter": {
+      "name": "Starter",
+      "price": "$4.99",
+      "features": ["10 interviews", "Unlimited candidates", "AI evaluation", "Full analytics", "Email support"]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$9.99",
+      "features": ["50 interviews", "Unlimited candidates", "AI evaluation", "Full analytics", "Priority support"]
+    },
+    "unlimited": {
+      "name": "Unlimited",
+      "price": "$19.99/mo",
+      "features": ["Unlimited interviews", "Unlimited candidates", "AI evaluation", "Full analytics", "24/7 support"]
+    },
+    "buyNow": "Buy Now",
+    "currentPlan": "Current Plan"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try Again"
+  }
+}

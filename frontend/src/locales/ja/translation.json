@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "create": "面接を作成",
+    "pricing": "料金"
+  },
+  "home": {
+    "title": "AI面接スクリーニング",
+    "subtitle": "AIテキスト面接で候補者の初期選考を自動化",
+    "cta": "面接を作成",
+    "features": {
+      "title": "使い方",
+      "step1": {
+        "title": "面接を作成",
+        "desc": "職務要件を入力し、AIが選考質問を生成"
+      },
+      "step2": {
+        "title": "リンクを共有",
+        "desc": "候補者に面接リンクを送信"
+      },
+      "step3": {
+        "title": "AI評価",
+        "desc": "即座にAIスコアと推薦を取得"
+      },
+      "step4": {
+        "title": "結果を確認",
+        "desc": "パフォーマンス順にすべての候補者を確認"
+      }
+    },
+    "benefits": {
+      "title": "AI Interviewerを選ぶ理由",
+      "fast": "選考時間を80%節約",
+      "unbiased": "一貫した公平な評価",
+      "scalable": "数百人の候補者を即座にスクリーニング",
+      "cheap": "ビデオ面接ツールの10分の1の価格"
+    }
+  },
+  "create": {
+    "title": "新しい面接を作成",
+    "jobTitle": "職種名",
+    "jobTitlePlaceholder": "例：シニアソフトウェアエンジニア",
+    "requirements": "職務要件",
+    "requirementsPlaceholder": "役割、責任、要件を説明してください...",
+    "skills": "主要スキル（カンマ区切り）",
+    "skillsPlaceholder": "例：Python, 機械学習, AWS",
+    "submit": "面接質問を生成",
+    "generating": "質問を生成中...",
+    "success": {
+      "title": "面接が作成されました！",
+      "candidateLink": "このリンクを候補者に送信：",
+      "resultsLink": "結果はこちらで確認（保存してください）：",
+      "copyLink": "リンクをコピー",
+      "copied": "コピーしました！"
+    }
+  },
+  "interview": {
+    "title": "スクリーニング面接",
+    "for": "職種",
+    "instructions": "各質問に丁寧にお答えください。回答はAIによって評価されます。",
+    "yourName": "お名前",
+    "yourEmail": "メールアドレス",
+    "question": "質問",
+    "answerPlaceholder": "こちらに回答を入力...",
+    "submit": "面接を提出",
+    "submitting": "提出中...",
+    "success": {
+      "title": "ありがとうございます！",
+      "message": "回答が提出されました。採用チームが間もなく確認します。"
+    },
+    "error": {
+      "notFound": "面接が見つかりません",
+      "alreadySubmitted": "この面接は既に提出済みです"
+    }
+  },
+  "results": {
+    "title": "面接結果",
+    "summary": "概要",
+    "totalCandidates": "総候補者数",
+    "recommended": "推薦",
+    "maybe": "検討中",
+    "notRecommended": "非推薦",
+    "noCandidates": "まだ提出がありません。面接リンクを候補者と共有してください。",
+    "candidate": "候補者",
+    "score": "スコア",
+    "recommendation": "推薦",
+    "aiSummary": "AI要約",
+    "answers": "回答",
+    "accessDenied": "アクセスコードが無効です"
+  },
+  "pricing": {
+    "title": "シンプルな料金",
+    "subtitle": "無料で始めて、必要に応じてアップグレード",
+    "free": {
+      "name": "無料",
+      "price": "¥0",
+      "features": ["1回の面接", "最大5名の候補者", "AI評価", "基本分析"]
+    },
+    "starter": {
+      "name": "スターター",
+      "price": "¥750",
+      "features": ["10回の面接", "無制限の候補者", "AI評価", "完全分析", "メールサポート"]
+    },
+    "pro": {
+      "name": "プロ",
+      "price": "¥1,500",
+      "features": ["50回の面接", "無制限の候補者", "AI評価", "完全分析", "優先サポート"]
+    },
+    "unlimited": {
+      "name": "無制限",
+      "price": "¥3,000/月",
+      "features": ["無制限の面接", "無制限の候補者", "AI評価", "完全分析", "24時間サポート"]
+    },
+    "buyNow": "今すぐ購入",
+    "currentPlan": "現在のプラン"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "tryAgain": "再試行"
+  }
+}

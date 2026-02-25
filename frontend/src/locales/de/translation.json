@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "create": "Interview erstellen",
+    "pricing": "Preise"
+  },
+  "home": {
+    "title": "KI-Interview-Screening",
+    "subtitle": "Automatisieren Sie Ihre erste Kandidatenauswahl mit KI-gestützten Textinterviews",
+    "cta": "Interview erstellen",
+    "features": {
+      "title": "So funktioniert es",
+      "step1": {
+        "title": "Interview erstellen",
+        "desc": "Geben Sie Jobanforderungen ein und lassen Sie KI Screening-Fragen generieren"
+      },
+      "step2": {
+        "title": "Link teilen",
+        "desc": "Senden Sie den einzigartigen Interview-Link an Kandidaten"
+      },
+      "step3": {
+        "title": "KI bewertet",
+        "desc": "Erhalten Sie sofortige KI-Bewertung und Empfehlungen"
+      },
+      "step4": {
+        "title": "Ergebnisse prüfen",
+        "desc": "Sehen Sie alle Kandidaten nach Leistung sortiert"
+      }
+    },
+    "benefits": {
+      "title": "Warum AI Interviewer?",
+      "fast": "Sparen Sie 80% der Screening-Zeit",
+      "unbiased": "Konsistente, unvoreingenommene Bewertungen",
+      "scalable": "Screenen Sie Hunderte von Kandidaten sofort",
+      "cheap": "10x günstiger als Video-Interview-Tools"
+    }
+  },
+  "create": {
+    "title": "Neues Interview erstellen",
+    "jobTitle": "Stellenbezeichnung",
+    "jobTitlePlaceholder": "z.B. Senior Software-Ingenieur",
+    "requirements": "Stellenanforderungen",
+    "requirementsPlaceholder": "Beschreiben Sie die Rolle, Verantwortlichkeiten und Anforderungen...",
+    "skills": "Kernkompetenzen (kommagetrennt)",
+    "skillsPlaceholder": "z.B. Python, Machine Learning, AWS",
+    "submit": "Interview-Fragen generieren",
+    "generating": "Fragen werden generiert...",
+    "success": {
+      "title": "Interview erstellt!",
+      "candidateLink": "Senden Sie diesen Link an Kandidaten:",
+      "resultsLink": "Ergebnisse hier ansehen (speichern!):",
+      "copyLink": "Link kopieren",
+      "copied": "Kopiert!"
+    }
+  },
+  "interview": {
+    "title": "Screening-Interview",
+    "for": "für",
+    "instructions": "Bitte beantworten Sie jede Frage sorgfältig. Ihre Antworten werden von KI ausgewertet.",
+    "yourName": "Ihr Name",
+    "yourEmail": "Ihre E-Mail",
+    "question": "Frage",
+    "answerPlaceholder": "Geben Sie hier Ihre Antwort ein...",
+    "submit": "Interview einreichen",
+    "submitting": "Wird eingereicht...",
+    "success": {
+      "title": "Vielen Dank!",
+      "message": "Ihre Antworten wurden eingereicht. Das Einstellungsteam wird sie in Kürze prüfen."
+    },
+    "error": {
+      "notFound": "Interview nicht gefunden",
+      "alreadySubmitted": "Sie haben dieses Interview bereits eingereicht"
+    }
+  },
+  "results": {
+    "title": "Interview-Ergebnisse",
+    "summary": "Zusammenfassung",
+    "totalCandidates": "Gesamtkandidaten",
+    "recommended": "Empfohlen",
+    "maybe": "Vielleicht",
+    "notRecommended": "Nicht empfohlen",
+    "noCandidates": "Noch keine Einreichungen. Teilen Sie den Interview-Link mit Kandidaten.",
+    "candidate": "Kandidat",
+    "score": "Punktzahl",
+    "recommendation": "Empfehlung",
+    "aiSummary": "KI-Zusammenfassung",
+    "answers": "Antworten",
+    "accessDenied": "Ungültiger Zugriffscode"
+  },
+  "pricing": {
+    "title": "Einfache Preisgestaltung",
+    "subtitle": "Kostenlos starten, bei Bedarf upgraden",
+    "free": {
+      "name": "Kostenlos",
+      "price": "0€",
+      "features": ["1 Interview", "Max. 5 Kandidaten", "KI-Bewertung", "Basis-Analytik"]
+    },
+    "starter": {
+      "name": "Starter",
+      "price": "4,99€",
+      "features": ["10 Interviews", "Unbegrenzte Kandidaten", "KI-Bewertung", "Volle Analytik", "E-Mail-Support"]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "9,99€",
+      "features": ["50 Interviews", "Unbegrenzte Kandidaten", "KI-Bewertung", "Volle Analytik", "Prioritäts-Support"]
+    },
+    "unlimited": {
+      "name": "Unbegrenzt",
+      "price": "19,99€/Monat",
+      "features": ["Unbegrenzte Interviews", "Unbegrenzte Kandidaten", "KI-Bewertung", "Volle Analytik", "24/7 Support"]
+    },
+    "buyNow": "Jetzt kaufen",
+    "currentPlan": "Aktueller Plan"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "tryAgain": "Erneut versuchen"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "홈",
+    "create": "면접 만들기",
+    "pricing": "가격"
+  },
+  "home": {
+    "title": "AI 면접 스크리닝",
+    "subtitle": "AI 텍스트 면접으로 초기 후보자 선별을 자동화하세요",
+    "cta": "면접 만들기",
+    "features": {
+      "title": "사용 방법",
+      "step1": {
+        "title": "면접 만들기",
+        "desc": "직무 요구사항을 입력하면 AI가 스크리닝 질문을 생성합니다"
+      },
+      "step2": {
+        "title": "링크 공유",
+        "desc": "고유 면접 링크를 후보자에게 전송하세요"
+      },
+      "step3": {
+        "title": "AI 평가",
+        "desc": "즉각적인 AI 점수와 추천을 받으세요"
+      },
+      "step4": {
+        "title": "결과 확인",
+        "desc": "성과순으로 정렬된 모든 후보자를 확인하세요"
+      }
+    },
+    "benefits": {
+      "title": "AI Interviewer를 선택해야 하는 이유",
+      "fast": "스크리닝 시간 80% 절약",
+      "unbiased": "일관되고 편향 없는 평가",
+      "scalable": "수백 명의 후보자를 즉시 스크리닝",
+      "cheap": "비디오 면접 도구보다 10배 저렴"
+    }
+  },
+  "create": {
+    "title": "새 면접 만들기",
+    "jobTitle": "직무명",
+    "jobTitlePlaceholder": "예: 시니어 소프트웨어 엔지니어",
+    "requirements": "직무 요구사항",
+    "requirementsPlaceholder": "역할, 책임, 요구사항을 설명하세요...",
+    "skills": "핵심 기술 (쉼표로 구분)",
+    "skillsPlaceholder": "예: Python, 머신러닝, AWS",
+    "submit": "면접 질문 생성",
+    "generating": "질문 생성 중...",
+    "success": {
+      "title": "면접이 생성되었습니다!",
+      "candidateLink": "이 링크를 후보자에게 보내세요:",
+      "resultsLink": "여기서 결과를 확인하세요 (저장하세요!):",
+      "copyLink": "링크 복사",
+      "copied": "복사됨!"
+    }
+  },
+  "interview": {
+    "title": "스크리닝 면접",
+    "for": "직무",
+    "instructions": "각 질문에 신중하게 답변해 주세요. 답변은 AI가 평가합니다.",
+    "yourName": "이름",
+    "yourEmail": "이메일",
+    "question": "질문",
+    "answerPlaceholder": "여기에 답변을 입력하세요...",
+    "submit": "면접 제출",
+    "submitting": "제출 중...",
+    "success": {
+      "title": "감사합니다!",
+      "message": "답변이 제출되었습니다. 채용팀에서 곧 검토할 예정입니다."
+    },
+    "error": {
+      "notFound": "면접을 찾을 수 없습니다",
+      "alreadySubmitted": "이미 이 면접을 제출하셨습니다"
+    }
+  },
+  "results": {
+    "title": "면접 결과",
+    "summary": "요약",
+    "totalCandidates": "총 후보자",
+    "recommended": "추천",
+    "maybe": "보류",
+    "notRecommended": "비추천",
+    "noCandidates": "아직 제출이 없습니다. 면접 링크를 후보자와 공유하세요.",
+    "candidate": "후보자",
+    "score": "점수",
+    "recommendation": "추천",
+    "aiSummary": "AI 요약",
+    "answers": "답변",
+    "accessDenied": "잘못된 접근 코드"
+  },
+  "pricing": {
+    "title": "간단한 가격 정책",
+    "subtitle": "무료로 시작하고 필요할 때 업그레이드",
+    "free": {
+      "name": "무료",
+      "price": "₩0",
+      "features": ["1회 면접", "최대 5명 후보자", "AI 평가", "기본 분석"]
+    },
+    "starter": {
+      "name": "스타터",
+      "price": "₩7,000",
+      "features": ["10회 면접", "무제한 후보자", "AI 평가", "전체 분석", "이메일 지원"]
+    },
+    "pro": {
+      "name": "프로",
+      "price": "₩14,000",
+      "features": ["50회 면접", "무제한 후보자", "AI 평가", "전체 분석", "우선 지원"]
+    },
+    "unlimited": {
+      "name": "무제한",
+      "price": "₩28,000/월",
+      "features": ["무제한 면접", "무제한 후보자", "AI 평가", "전체 분석", "24시간 지원"]
+    },
+    "buyNow": "지금 구매",
+    "currentPlan": "현재 플랜"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "tryAgain": "다시 시도"
+  }
+}
